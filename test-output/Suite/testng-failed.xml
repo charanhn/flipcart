@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="scripts.ToVerifyAddtoShoppingCart"/>
+      <class name="scripts.toVerifyEmptyCart"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="scripts.toVerifyEmptyCart">
+        <methods>
+          <include name="testToVerifyAddtoShoppingCart"/>
+          <include name="openAppln"/>
+        </methods>
+      </class> <!-- scripts.toVerifyEmptyCart -->
+      <class name="scripts.ToVerifyAddtoShoppingCart">
+        <methods>
+          <include name="closeAppln"/>
+          <include name="testToVerifyAddtoShoppingCart"/>
+          <include name="openAppln"/>
+        </methods>
+      </class> <!-- scripts.ToVerifyAddtoShoppingCart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

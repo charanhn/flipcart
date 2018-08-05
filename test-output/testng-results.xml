@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[link click is successfull]]>
+    </line>
+    <line>
+      <![CDATA[title is matching]]>
+    </line>
+    <line>
+      <![CDATA[link click is successfull]]>
+    </line>
+    <line>
+      <![CDATA[link click is successfull]]>
+    </line>
+    <line>
+      <![CDATA[link click is successfull]]>
+    </line>
+    <line>
+      <![CDATA[Product is added to cart]]>
+    </line>
+    <line>
+      <![CDATA[link click is successfull]]>
+    </line>
+    <line>
+      <![CDATA[link click is successfull]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55097" started-at="2018-08-05T04:56:18Z" finished-at="2018-08-05T04:57:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55097" started-at="2018-08-05T04:56:18Z" finished-at="2018-08-05T04:57:14Z">
+      <class name="scripts.toVerifyEmptyCart">
+        <test-method status="PASS" signature="openAppln()[pri:0, instance:scripts.toVerifyEmptyCart@6093dd95]" name="openAppln" is-config="true" duration-ms="27686" started-at="2018-08-05T10:26:18Z" finished-at="2018-08-05T10:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppln -->
+        <test-method status="PASS" signature="testToVerifyAddtoShoppingCart()[pri:0, instance:scripts.toVerifyEmptyCart@6093dd95]" name="testToVerifyAddtoShoppingCart" duration-ms="25623" started-at="2018-08-05T10:26:46Z" finished-at="2018-08-05T10:27:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[link click is successfull]]>
+            </line>
+            <line>
+              <![CDATA[title is matching]]>
+            </line>
+            <line>
+              <![CDATA[link click is successfull]]>
+            </line>
+            <line>
+              <![CDATA[link click is successfull]]>
+            </line>
+            <line>
+              <![CDATA[link click is successfull]]>
+            </line>
+            <line>
+              <![CDATA[Product is added to cart]]>
+            </line>
+            <line>
+              <![CDATA[link click is successfull]]>
+            </line>
+            <line>
+              <![CDATA[link click is successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testToVerifyAddtoShoppingCart -->
+        <test-method status="PASS" signature="closeAppln()[pri:0, instance:scripts.toVerifyEmptyCart@6093dd95]" name="closeAppln" is-config="true" duration-ms="1752" started-at="2018-08-05T10:27:12Z" finished-at="2018-08-05T10:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAppln -->
+      </class> <!-- scripts.toVerifyEmptyCart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
