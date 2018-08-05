@@ -1,5 +1,7 @@
 package scripts;
 
+import java.util.Set;
+
 import org.testng.annotations.Test;
 import pom.ProductDetailsPage;
 import pom.ShoppingCartPage;
@@ -25,9 +27,11 @@ public class toVerifyEmptyCart extends Base_Test {
 		home.clickSearchedProductClick();
 
 		// Switch to new window opened
-
+		//Set<String> winHandle = driver.getWindowHandles();
+		//driver.switchTo().window(winHandle);
+		
 		for (String winHandle : driver.getWindowHandles()) {
-			driver.switchTo().window(winHandle);
+		driver.switchTo().window(winHandle);
 		}
 
 		// Perform the actions on new window
